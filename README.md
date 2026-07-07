@@ -4,7 +4,7 @@ A voice-interactive AI chatbot simulation application built with Python that fea
 
 ## 📋 Overview
 
-SimBot Launcher is a Python-based conversational AI application that uses voice input/output to interact with users. Built following Clean Architecture and Pragmatic Programmer principles, the application allows users to select between different personas and engage in simulated conversations.
+SimBot Launcher is a Python-based conversational AI application that uses voice input/output to interact with users. I used the Python library edge-tts by Microsoft to generate responses.
 
 ## 🎯 Features
 
@@ -113,10 +113,8 @@ No license currently specified. See GitHub repository for more information.
 
 [Code-ruto](https://github.com/Code-ruto)
 
-## 📞 Support
+## FUTURE IMPORVEMENTS
 
-For issues, questions, or contributions, please visit the [GitHub Issues](https://github.com/Code-ruto/Final_Project/issues) page.
-
----
+Incorporate a real LLM to respond to scenarios. 
 
 **Last Updated**: April 2026
