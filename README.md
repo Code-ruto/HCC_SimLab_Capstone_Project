@@ -6,6 +6,8 @@ A voice-interactive AI chatbot simulation application built with Python that fea
 
 SimBot Launcher is a Python-based conversational AI application that uses voice input/output to interact with users. I used the Python library edge-tts by Microsoft to generate responses with neural text-to-speech powered by Azure Cognitive Services.
 
+In 2025, I was selected to intern at Houston City College's Coleman campus. My capstone project is a conceptual chatbot that interacts with dialogue. The purpose of this project is to demonstrate potential uses for AI in assisting students undergoing simulation lab training at Houston City College.
+
 ## 🎯 Features
 
 - **Voice Input/Output**: Integrated speech recognition and AI-powered text-to-speech capabilities
@@ -110,11 +112,6 @@ The application listens for:
 - **"number one"** - Select the first persona
 - **"number two"** - Select the second persona
 
-## 📝 Development Notes
-
-This project follows:
-- **Clean Architecture**: Clear separation of concerns across modules
-- **Pragmatic Programmer Principles**: Practical, maintainable code design
 
 ## 📄 License
 
