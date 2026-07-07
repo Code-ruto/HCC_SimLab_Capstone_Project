@@ -4,20 +4,21 @@ A voice-interactive AI chatbot simulation application built with Python that fea
 
 ## 📋 Overview
 
-SimBot Launcher is a Python-based conversational AI application that uses voice input/output to interact with users. I used the Python library edge-tts by Microsoft to generate responses.
+SimBot Launcher is a Python-based conversational AI application that uses voice input/output to interact with users. I used the Python library edge-tts by Microsoft to generate responses with neural text-to-speech powered by Azure Cognitive Services.
 
 ## 🎯 Features
 
-- **Voice Input/Output**: Integrated speech recognition and text-to-speech capabilities
+- **Voice Input/Output**: Integrated speech recognition and AI-powered text-to-speech capabilities
 - **Multiple Personas**: Choose between different conversation personalities (Number One, Number Two)
 - **Clean Architecture**: Modular design separating concerns (Voice, Logic, Modules)
 - **Conversational AI**: Simulated conversation engine with persona-based responses
+- **Neural TTS**: High-quality AI-generated speech using Microsoft Edge's neural engine
 
 ## 🛠️ Technology Stack
 
 - **Language**: Python 3.11+
 - **Speech Recognition**: `SpeechRecognition`
-- **Text-to-Speech**: `edge-tts`
+- **Text-to-Speech**: `edge-tts` (Microsoft Edge neural TTS powered by Azure Cognitive Services)
 - **Audio Processing**: `PyAudio`
 - **HTTP Client**: `aiohttp`
 
@@ -87,11 +88,21 @@ Key packages used:
 | Package | Version | Purpose |
 |---------|---------|---------|
 | SpeechRecognition | 3.14.2 | Voice input processing |
-| edge-tts | 7.0.1 | Text-to-speech conversion |
+| edge-tts | 7.0.1 | AI-powered neural text-to-speech conversion (Microsoft) |
 | PyAudio | 0.2.14 | Audio input/output |
 | aiohttp | 3.11.18 | Asynchronous HTTP requests |
 
 See `requirements.txt` for complete dependency list.
+
+### About Edge-TTS
+
+**edge-tts** is a Python library that leverages Microsoft Edge's neural text-to-speech engine, powered by Azure Cognitive Services. It uses advanced AI models to:
+- Convert text to natural-sounding speech with multiple voice options
+- Support various languages and regional accents
+- Provide prosody control (pitch, rate, volume) for expressive speech synthesis
+- Generate high-quality audio without requiring API keys or cloud credentials
+
+This enables SimBot Launcher to produce realistic voice responses that sound human-like and contextually appropriate to each persona.
 
 ## 🎤 Voice Commands
 
